@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather.com</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	{{>navbar}}
+	<section class="ban"> 
+		<div class="con">
+			<img src="../images/sunCloud.png" alt="">
+			<span id="mainTemp">0 <span><sup>o</sup>C</span></span>
+			<span id="subTemp" >0 <span><sup>o</sup>C</span> /0 <span><sup>o</sup>C</span></span>
+		</div>
+		<div class="img">
+			<img class="img1" src="../images/gps.png" alt="">
+			<h1 class="h1">India-Bangalore..</h1>
+			<img class="img2" src="../images/banner.png" alt="">
+		</div>
+	</section>
+	<section class="body">
+		<div class="first">
+			<h1>Weather Assistant</h1>
+			<span>In Your Phone</span>
+			<p>Find Out Rain and floods beckon as La Nina looms and IOD deepens.</p>
+			<button id="bodybtn">Search Weather</button>
+		</div>
+		<div class="second">
+			<img id="b2" src="../images/body2.jpg" alt="">
+		</div>
+		<div class="third">
+			<img id="b3" src="../images/body3.png" alt="">
+		</div>
+	</section>
+	{{>footer}}
+	<script src="/js/home.js"></script>
+	
+</body>
+</html>
